@@ -9,7 +9,7 @@
 * 1600 // 2400 >> **R**
 
 ##### Each third is an interval from 0 to 1, displayed with two decimal digits
-###### Each 0.50 of a **PHASE** marks an important moment of the day, 0.00 are the separators
+###### Each 0.50 of a **PHASE** marks an important moment of the day, 0.00 are delimiters
 ~~~~
 S:0.50 is 0400
 M+0.50 is 1200
