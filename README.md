@@ -35,38 +35,33 @@ R:0.00 is 1600
 
 ---
 #### Date:
-  * date is in `YYYYMDD` format.
-  * `YY` is year.
-  * `M` is month, a-b-c-d-e-f-g-h-i-j-k-l, to keep it visually compact.
-    - All letters are written in small caps, except for the `L`, to avoid confusion with the number "1"
-  * `D` is day, a "0" is prepended for days < 10.
+  * date is in `YYYYMMDD` format.
+  * `YY` is year. Plain 4-digits number.
+  * `MM` is month, aa-bb-ga-gb-gc-ha-hb-hc-ya-yb-yc-ww.
+    - All letters are written in small caps. This provides for a nice visual delimiter.
+  * `DD` is day, a "0" is prepended for days < 10.
   ~~~~
-  May 18, 2019 is 2019e18
-  December 25, 2020 is 2020L25
-  October 3, 2123 is 2023j03
+  May 18, 2019 is 2019gc18
+  December 25, 2020 is 2020ww25
+  October 3, 2123 is 2023yb03
   ~~~~
 
 Quick month table:
-  * `a` . January
-  * `b` . February
-  * `c` . March
-  * `d` . April
-  * `e` . May
-  * `f` . June
-  * `g` . July
-  * `h` . August
-  * `i` . September
-  * `j` . October
-  * `k` . November
-  * `L` . December
+  * `aa` . January
+  * `bb` . February
+  * `ga` . March
+  * `gb` . April
+  * `gc` . May
+  * `ha` . June
+  * `hb` . July
+  * `hc` . August
+  * `ya` . September
+  * `yb` . October
+  * `yc` . November
+  * `ww` . December
 
-###### ALT:
+###### That's why:
   - `ga`  `gb`  `gc`  **Mar Apr May** _Giusto_
   - `ha`  `hb`  `hc`  **Jun Jul Aug** _Hot_
   - `ya`  `yb`  `yc`  **Sep Oct Nov** _Yellow_
   - `ww`  `aa`  `bb`  **Dec Jan Feb** _Winter_
-
-
-
-
-2019gb18
