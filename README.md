@@ -60,7 +60,7 @@ Quick month table:
   * `k` . November
   * `L` . December
 
-######ALT:
+#####ALT:
   * ca cc cc jan feb mar  `Cold`
   * ga gb gc  apr may jun `Giusto`
   * ha hb hc  jul aug sep `Hot`
