@@ -129,8 +129,15 @@ function floow-ringFrag ([float]$fragsAlarm) { # for timeboxing // beeps after X
   [float]$millisec = $fragsAlarm * 288000
   [float]$sec = $fragsAlarm * 288
 
+# TODO: absolute local path
   $argList = "-file `"R:\Work\git\floow\src\alarm.ps1`" -millisec $millisec"
   Start-Process powershell -argumentlist $argList
+
+
+
+### OLD SHIT :)
+
+
 
   #Start-Process powershell -file "R:\scripts\floow\src\alarm.ps1"
 
