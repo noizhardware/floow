@@ -89,18 +89,18 @@ function floow-convert-ttmil ($ttinput){ # tt to military time conversion
 
 function floow-date {
   [int]$month = Get-Date -UFormat %m
-  if($month -eq 1){$monthletter = "ca"}
-  if($month -eq 2){$monthletter = "cb"}
-  if($month -eq 3){$monthletter = "cc"}
-  if($month -eq 4){$monthletter = "ga"}
-  if($month -eq 5){$monthletter = "gb"}
-  if($month -eq 6){$monthletter = "gc"}
-  if($month -eq 7){$monthletter = "ha"}
-  if($month -eq 8){$monthletter = "hb"}
-  if($month -eq 9){$monthletter = "hc"}
-  if($month -eq 10){$monthletter = "wa"}
-  if($month -eq 11){$monthletter = "wb"}
-  if($month -eq 12){$monthletter = "wc"}
+  if($month -eq 1){$monthletter = "aa"}
+  if($month -eq 2){$monthletter = "bb"}
+  if($month -eq 3){$monthletter = "ga"}
+  if($month -eq 4){$monthletter = "gb"}
+  if($month -eq 5){$monthletter = "gc"}
+  if($month -eq 6){$monthletter = "ha"}
+  if($month -eq 7){$monthletter = "hb"}
+  if($month -eq 8){$monthletter = "hc"}
+  if($month -eq 9){$monthletter = "ya"}
+  if($month -eq 10){$monthletter = "yb"}
+  if($month -eq 11){$monthletter = "yc"}
+  if($month -eq 12){$monthletter = "ww"}
   $year = Get-Date -UFormat %Y
   $day = Get-Date -UFormat %d
   $global:dateFloow = "$year$monthletter$day"
