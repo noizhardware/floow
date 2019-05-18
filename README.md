@@ -65,7 +65,6 @@ Quick month table:
   * ga gb gc  apr may jun `Giusto`
   * ha hb hc  jul aug sep `Hot`
   * wa wb wc  oct nov dic `Winter`
-
     - ga gb gc  mar apr may
     - ha hb hc  jun jul aug
     - ya yb yc  sep oct nov
