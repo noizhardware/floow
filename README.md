@@ -1,4 +1,4 @@
-jul# F L O O W
+# F L O O W
 #### Functional time-keeping framework
 
 ----
@@ -34,7 +34,7 @@ R:0.00 is 1600
 - 100x **FRAGS** are for sleeping. 200x **FRAGS** are available.
 
 ---
-####Date:
+#### Date:
   * date is in `YYYYMDD` format.
   * `YY` is year.
   * `M` is month, a-b-c-d-e-f-g-h-i-j-k-l, to keep it visually compact.
@@ -60,7 +60,7 @@ Quick month table:
   * `k` . November
   * `L` . December
 
-#####ALT:
+###### ALT:
   * ca cc cc jan feb mar  `Cold`
   * ga gb gc  apr may jun `Giusto`
   * ha hb hc  jul aug sep `Hot`
