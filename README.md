@@ -3,7 +3,7 @@
 
 ----
 ##### The 24 hours are divided in three *PHASES*, called "S", "M" and "R"
-###### That's for **S**leep **M**iddle **R**elax
+###### That's for `S`leep `M`iddle `R`elax
 * 0000 // 0800 >> **S**
 * 0800 // 1600 >> **M**
 * 1600 // 2400 >> **R**
