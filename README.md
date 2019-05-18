@@ -1,4 +1,4 @@
-# F L O O W
+jul# F L O O W
 #### Functional time-keeping framework
 
 ----
@@ -60,21 +60,16 @@ Quick month table:
   * `k` . November
   * `L` . December
 
-ca cc cc gen feb mar  `Cold`
+######ALT:
+  * ca cc cc jan feb mar  `Cold`
+  * ga gb gc  apr may jun `Giusto`
+  * ha hb hc  jul aug sep `Hot`
+  * wa wb wc  oct nov dic `Winter`
 
-ga gb gc  apr mag giu `Giusto`
-
-ha hb hc  lug ago set `Hot`
-
-wa wb wc  ott nov dic `Winter`
-
-ga gb gc  mar apr mag
-
-ha hb hc  giu lug ago
-
-ya yb yc  set ott nov
-
-wa aa bb  dec jan feb
+    - ga gb gc  mar apr may
+    - ha hb hc  jun jul aug
+    - ya yb yc  sep oct nov
+    - wa aa bb  dec jan feb
 
 
 
