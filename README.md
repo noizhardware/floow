@@ -61,7 +61,7 @@ Quick month table:
   * `L` . December
 
 ###### ALT:
-  - `ga`  `gb`  `gc`  mar apr may _Cold_
+  - `ga`  `gb`  `gc`  **mar apr may** _Cold_
   - `ha` `hb` `hc`  jun jul aug _Giusto_
   - `ya` `yb` `yc`  sep oct nov _Hot_
   - `wa` `aa` `bb`  dec jan feb _Winter_
