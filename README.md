@@ -37,14 +37,14 @@ R:0.00 is 1600
 #### Date:
   * date is in `YYYYMMDD` format.
   * `YY` is year. Plain 4-digits number.
-  * `MM` is month, January to December: `aa` `bb` `ga` `gb` `gc` `ha` `hb` `hc` `ya` `yb` `yc` `ww`.
+  * `MM` is month, January to December: `aa` `bb` `ga` `gb` `gc` `ha` `hb` `hc` `ya` `yb` `yc` `zz`.
     - All letters are written in small caps. This provides for a nice visual delimiter.
   * `DD` is day, a "0" is prepended for day numbers < 10.
 
   ###### _Examples:_
   ~~~~
   May 18, 2019 is 2019gc18
-  December 25, 2020 is 2020ww25
+  December 25, 2020 is 2020zz25
   October 3, 2123 is 2023yb03
   ~~~~
 
@@ -60,10 +60,10 @@ Quick month table:
   * `ya` . September
   * `yb` . October
   * `yc` . November
-  * `ww` . December
+  * `zz` . December
 
 ###### That's why:
   - `ga`  `gb`  `gc`  **Mar Apr May** _Giusto_
   - `ha`  `hb`  `hc`  **Jun Jul Aug** _Hot_
   - `ya`  `yb`  `yc`  **Sep Oct Nov** _Yellow_
-  - `ww`  `aa`  `bb`  **Dec Jan Feb** _Winter_
+  - `zz`  `aa`  `bb`  **Dec Jan Feb** _Winter_
