@@ -37,9 +37,11 @@ R:0.00 is 1600
 #### Date:
   * date is in `YYYYMMDD` format.
   * `YY` is year. Plain 4-digits number.
-  * `MM` is month, aa-bb-ga-gb-gc-ha-hb-hc-ya-yb-yc-ww.
+  * `MM` is month, January to December: `aa` `bb` `ga` `gb` `gc` `ha` `hb` `hc` `ya` `yb` `yc` `ww`.
     - All letters are written in small caps. This provides for a nice visual delimiter.
-  * `DD` is day, a "0" is prepended for days < 10.
+  * `DD` is day, a "0" is prepended for day numbers < 10.
+
+  ###### _Examples:_
   ~~~~
   May 18, 2019 is 2019gc18
   December 25, 2020 is 2020ww25
