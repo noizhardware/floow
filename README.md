@@ -12,8 +12,8 @@
 ###### Each 0.50 of a **PHASE** marks an important moment of the day, 0.00 are delimiters
 ~~~~
 S:0.50 is 0400
-M+0.50 is 1200
-R+0.50 is 2000
+M:0.50 is 1200
+R:0.50 is 2000
 ~~~~
 ~~~~
 S:0.00 is 0000
