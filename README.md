@@ -1,8 +1,8 @@
 # F L O O W
-#### Functional time-keeping framework
+#### F L O O W is a functional time-keeping framework
 
 ----
-##### The 24 hours are divided in three *PHASES*, called "S", "M" and "R"
+##### A day's 24 hours are divided in three *PHASES*, called "S", "M" and "R"
 ###### That's for `S`leep `M`iddle `R`elax
 * 0000 // 0800 >> **S**
 * 0800 // 1600 >> **M**
@@ -12,7 +12,7 @@
 ###### Each 0.50 of a **PHASE** marks an important moment of the day, 0.00 are delimiters
 ~~~~
 S:0.50 is 0400
-M:0.50 is 1200
+M:0.50 is 120f
 R:0.50 is 2000
 ~~~~
 ~~~~
@@ -20,7 +20,7 @@ S:0.00 is 0000
 M:0.00 is 8000
 R:0.00 is 1600
 ~~~~
-###### Each **PHASE** is 8 hours
+###### Each **PHASE** equals to 8 hours
 
 * 1 hour is 0.12
 * 0.10 is 48min is a **BLOK** (10 in a _PHASE_)
