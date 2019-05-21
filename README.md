@@ -32,11 +32,43 @@ R:0.00 is 1600
 - A day has 30x **BLOKS**. or 300x **FRAGS**.
 - 10x **BLOKS** are for sleeping, 20x **BLOKS** are available.
 - 100x **FRAGS** are for sleeping. 200x **FRAGS** are available.
-
 ---
 #### Date:
+  * date is in `YYYYmDD` format.
+  * `YYYY` is year. Plain 4-digits number.
+  * `M` is month, `a` `b` `c` `d` `e` `f` `g` `h` `i` `j` `k` `L`, to keep it visually compact.
+    - All letters are written in small caps, except for the L, to avoid confusion with the number "1"
+    - The small letter provides a nice visual delimiter between year and day
+  * `DD` is day, a "0" is prepended for day numbers < 10.  
+
+  ###### _Examples:_
+  ~~~~
+  May 18, 2019 is 2019e18
+  December 25, 2020 is 2020L25
+  October 3, 2123 is 2123j03
+  ~~~~
+
+  Quick month table:
+  * `a` . January
+  * `b` . February
+  * `c` . March
+  * `d` . April
+  * `e` . May
+  * `f` . June
+  * `g` . July
+  * `h` . August
+  * `i` . September
+  * `j` . October
+  * `k` . November
+  * `L` . December
+---
+old:
+
+---
+
+#### Date:
   * date is in `YYYYMMDD` format.
-  * `YY` is year. Plain 4-digits number.
+  * `YYYY` is year. Plain 4-digits number.
   * `MM` is month, January to December: `aa` `bb` `ga` `gb` `gc` `ha` `hb` `hc` `ya` `yb` `yc` `zz`.
     - All letters are written in small caps. This provides for a nice visual delimiter.
   * `DD` is day, a "0" is prepended for day numbers < 10.
@@ -45,7 +77,7 @@ R:0.00 is 1600
   ~~~~
   May 18, 2019 is 2019gc18
   December 25, 2020 is 2020zz25
-  October 3, 2123 is 2023yb03
+  October 3, 2123 is 2123yb03
   ~~~~
 
 Quick month table:
