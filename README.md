@@ -36,15 +36,15 @@ R:0.00 is 1600
 #### Date:
   * date is in `YYYYmDD` format.
   * `YYYY` is year. Plain 4-digits number.
-  * `M` is month, `a` `b` `c` `d` `e` `f` `g` `h` `i` `j` `k` `L`, to keep it visually compact.
-    - All letters are written in small caps, except for the L, to avoid confusion with the number "1"
+  * `M` is month, `a` `b` `c` `d` `e` `f` `g` `h` `i` `j` `k` `z`, to keep it visually compact.
+    - All letters are written in small caps, `z` is used for December, because `l` can be confused with a `1`
     - The small letter provides a nice visual delimiter between year and day
   * `DD` is day, a "0" is prepended for day numbers < 10.  
 
   ###### _Examples:_
   ~~~~
   May 18, 2019 is 2019e18
-  December 25, 2020 is 2020L25
+  December 25, 2020 is 2020z25
   October 3, 2123 is 2123j03
   ~~~~
 
@@ -60,7 +60,7 @@ R:0.00 is 1600
   * `i` . September
   * `j` . October
   * `k` . November
-  * `L` . December
+  * `z` . December
 ---
 old:
 

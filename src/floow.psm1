@@ -100,7 +100,7 @@ function floow-date {
   if($month -eq 9){$monthletter = "i"}
   if($month -eq 10){$monthletter = "j"}
   if($month -eq 11){$monthletter = "k"}
-  if($month -eq 12){$monthletter = "L"}
+  if($month -eq 12){$monthletter = "z"}
   $year = Get-Date -UFormat %Y
   $day = Get-Date -UFormat %d
   $global:dateFloow = "$year$monthletter$day"
