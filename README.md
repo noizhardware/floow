@@ -48,7 +48,7 @@ R:0.00 is 1600
   October 3, 2123 is 2123j03
   ~~~~
 
-  Quick month table:
+  Quick month reference:
   * `a` . January
   * `b` . February
   * `c` . March
