@@ -4,15 +4,15 @@
 ----
 ##### A day's 24 hours are divided in three *PHASES*, called "S", "M" and "R"
 ###### That's for `S`leep `M`iddle `R`elax
-* 0000 // 0800 >> **S**
-* 0800 // 1600 >> **M**
-* 1600 // 2400 >> **R**
+* 0000 - 0800 >> `S`
+* 0800 - 1600 >> `M`
+* 1600 - 2400 >> `R`
 
 ##### Each third is an interval from 0 to 1, displayed with two decimal digits
-###### Each 0.50 of a **PHASE** marks an important moment of the day, 0.00 are delimiters
+###### Each 0.50 of a `PHASE` marks an important moment of the day, 0.00 are delimiters
 ~~~~
 S:0.50 is 0400
-M:0.50 is 120f
+M:0.50 is 1200
 R:0.50 is 2000
 ~~~~
 ~~~~
@@ -20,18 +20,19 @@ S:0.00 is 0000
 M:0.00 is 8000
 R:0.00 is 1600
 ~~~~
-###### Each **PHASE** equals to 8 hours
+###### Each `PHASE` equals to 8 hours
 
 * 1 hour is 0.12
-* 0.10 is 48min is a **BLOK** (10 in a _PHASE_)
-* 0.05 is 24min is **half a BLOK** or **BOX** (20 in a _PHASE_) = 5 **FRAGS**
-* 0.01 is 4min48sec is a **FRAG** (100 in a _PHASE_)
-* 0.001 is 28.8sec is a **SLIVER** (1000 in a _PHASE_)
+* 0.10 is 48min is a `BLOK` (10 in a _PHASE_)
+* 0.05 is 24min is **half a `BLOK`** or `BOX` (20 in a _PHASE_) = 5 `FRAGS`
+  - There are 20 `BOX` in each _PHASE_
+* 0.01 is 4min48sec is a `FRAG` (100 in a _PHASE_)
+* 0.001 is 28.8sec is a `SLIVER` (1000 in a _PHASE_)
 
-- Each **PHASE** has 10x **BLOKS**, or 100x **FRAGS**.
-- A day has 30x **BLOKS**. or 300x **FRAGS**.
-- 10x **BLOKS** are for sleeping, 20x **BLOKS** are available.
-- 100x **FRAGS** are for sleeping. 200x **FRAGS** are available.
+- Each `PHASE` has 10x `BLOKS`, or 100x `FRAGS`.
+- A day has 30x `BLOKS`. or 300x `FRAGS`.
+- 10x `BLOKS` are for sleeping, 20x `BLOKS` are available.
+- 100x `FRAGS` are for sleeping. 200x `FRAGS` are available.
 ---
 #### Date:
   * date is in `YYYYmDD` format.
@@ -62,7 +63,7 @@ R:0.00 is 1600
   * `k` . November
   * `z` . December
 ---
-old:
+Old:
 
 ---
 
