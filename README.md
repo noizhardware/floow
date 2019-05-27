@@ -24,7 +24,7 @@ R:0.00 is 1600
 
 * 1 hour is 0.12
 * 0.10 is 48min is a `BLOK` (10 in a _PHASE_)
-* 0.05 is 24min is **half a `BLOK`** or `BOX` (20 in a _PHASE_) = 5 `FRAGS`
+* 0.05 is 24min is a `BOX` (20 in a _PHASE_) = 5 `FRAGS`
   - There are 20 `BOX` in each _PHASE_
 * 0.01 is 4min48sec is a `FRAG` (100 in a _PHASE_)
 * 0.001 is 28.8sec is a `SLIVER` (1000 in a _PHASE_)
@@ -33,6 +33,13 @@ R:0.00 is 1600
 - A day has 30x `BLOKS`. or 300x `FRAGS`.
 - 10x `BLOKS` are for sleeping, 20x `BLOKS` are available.
 - 100x `FRAGS` are for sleeping. 200x `FRAGS` are available.
+* _RECAP:_
+
+|`PHASE`|`BLOK`|`FRAG`|`SLIVER`|
+|:-----:|:----:|:----:|:------:|
+| 3x    | 30x  |300x  |3000x   |
+|10`BLOK`|10`FRAG`|10`SLIVER`|-|
+
 ---
 #### Date:
   * date is in `YYYYmDD` format.
