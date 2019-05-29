@@ -20,6 +20,7 @@ S:0.00 is 0000
 M:0.00 is 8000
 R:0.00 is 1600
 ~~~~
+
 ###### Each `PHASE` equals to 8 hours
 
 * 1 hour is 0.12
