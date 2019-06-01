@@ -36,10 +36,11 @@ R:0.00 is 1600
 - 100x `FRAGS` are for sleeping. 200x `FRAGS` are available.
 * _RECAP:_
 
-|`PHASE`|`BLOK`|`FRAG`|`SLIVER`|
-|:-----:|:----:|:----:|:------:|
-| 3x    | 30x  |300x  |3000x   |
-|10`BLOK`|10`FRAG`|10`SLIVER`|-|
+| |`PHASE`|`BLOK`|`BOX`|`FRAG`|`SLIVER`|
+|:--:|:-----:|:----:|:----:|:------:|:---:|
+|_float notation_| **1.0**   | **0.10** | **0.05** | **0.01** | **0.001**
+|_per day_| 3x    | 30x  |60x  |300x   | 3000x|
+|_equals to_|10`BLOK`|2`BOX`|5`FRAG`| 10x `SLIVER` | - |
 
 ---
 #### Date:
