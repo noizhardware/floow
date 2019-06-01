@@ -72,4 +72,4 @@ R:0.00 is 1600
   * `k` . November
   * `z` . December
 ---
-EOF.
+_EOF._
