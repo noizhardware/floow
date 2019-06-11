@@ -104,17 +104,18 @@ function floow-date {
   $year = Get-Date -UFormat %Y
   $day = Get-Date -UFormat %d
   $global:dateFloow = "$year$monthletter$day"
+  return $dateFloow
 }
 
 function floow-dateTime {
     floow-init
-    floow-date
+    $dateFloow = floow-date
     $dateTime = "$global:dateFloow`:$global:ttmark`:$global:ttnumPos"
     return $dateTime
 }
 
 function floow-timestamp {
-  floow-date
+  $dateFloow = floow-date
   floow-init
   [string]$temp = $global:dateFloow
   $temp += ":"
