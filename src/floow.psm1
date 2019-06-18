@@ -87,22 +87,27 @@ function floow-convert-ttmil ($ttinput){ # tt to military time conversion
   write-output "mark:$ttMarkIn int:$ttIntIn cent:$ttCentIn sign:$ttSignIn fullvalue:$ttValueIn"
 }
 
-function floow-date {
-  [int]$month = Get-Date -UFormat %m
-  if($month -eq 1){$monthletter = "a"}
-  if($month -eq 2){$monthletter = "b"}
-  if($month -eq 3){$monthletter = "c"}
-  if($month -eq 4){$monthletter = "d"}
-  if($month -eq 5){$monthletter = "e"}
-  if($month -eq 6){$monthletter = "f"}
-  if($month -eq 7){$monthletter = "g"}
-  if($month -eq 8){$monthletter = "h"}
-  if($month -eq 9){$monthletter = "i"}
-  if($month -eq 10){$monthletter = "j"}
-  if($month -eq 11){$monthletter = "k"}
-  if($month -eq 12){$monthletter = "z"}
-  $year = Get-Date -UFormat %Y
-  $day = Get-Date -UFormat %d
+function floow-date([double]$offset){
+  if(!($offset)){[double]$offset = 0}
+  #(Get-date).AddDays([double]$offset)
+  $month = (get-date (get-date).addDays([double]$offset) -UFormat "%m")
+  #$month = Get-date -UFormat %m
+  #$month.AddDays($offset)
+  if([int]$month -eq 1){$monthletter = "a"}
+  if([int]$month -eq 2){$monthletter = "b"}
+  if([int]$month -eq 3){$monthletter = "c"}
+  if([int]$month -eq 4){$monthletter = "d"}
+  if([int]$month -eq 5){$monthletter = "e"}
+  if([int]$month -eq 6){$monthletter = "f"}
+  if([int]$month -eq 7){$monthletter = "g"}
+  if([int]$month -eq 8){$monthletter = "h"}
+  if([int]$month -eq 9){$monthletter = "i"}
+  if([int]$month -eq 10){$monthletter = "j"}
+  if([int]$month -eq 11){$monthletter = "k"}
+  if([int]$month -eq 12){$monthletter = "z"}
+  $year = (get-date (get-date).addDays([double]$offset) -UFormat "%Y")
+  $day = (get-date (get-date).addDays([double]$offset) -UFormat "%d")
+
   $global:dateFloow = "$year$monthletter$day"
   return $dateFloow
 }
