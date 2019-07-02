@@ -27,12 +27,12 @@ R:0.00 is 1600
 
 ###### Each `PHASE` equals to 8 hours
 
-* 1 hour is 0.12
-* 0.10 is 48min is a `BLOK` (10 in a _PHASE_)
-* 0.05 is 24min is a `BOX` (20 in a _PHASE_) = 5 `FRAGS`
+* 1 hour is `0.12`
+* `0.10` is 48min is a `BLOK` (10 in a _PHASE_)
+* `0.05` is 24min is a `BOX` (20 in a _PHASE_) = 5 `FRAGS`
   - There are 20 `BOX` in each _PHASE_
-* 0.01 is 4min48sec is a `FRAG` (100 in a _PHASE_)
-* 0.001 is 28.8sec is a `SLIVER` (1000 in a _PHASE_)
+* `0.01` is 4min48sec is a `FRAG` (100 in a _PHASE_)
+* `0.001` is 28.8sec is a `SLIVER` (1000 in a _PHASE_)
 
 - Each `PHASE` has 10x `BLOKS`, or 100x `FRAGS`.
 - A day has 30x `BLOKS`. or 300x `FRAGS`.
