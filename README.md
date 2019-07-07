@@ -14,16 +14,14 @@
 
 ##### Each third is an interval from 0 to 1, displayed with two decimal digits
 ###### Each 0.50 of a `PHASE` marks an important moment of the day, 0.00 are delimiters
-~~~~
-S:0.50 is 0400
-M:0.50 is 1200
-R:0.50 is 2000
-~~~~
-~~~~
-S:0.00 is 0000
-M:0.00 is 8000
-R:0.00 is 1600
-~~~~
+
+`S:0.50` is 0400
+`M:0.50` is 1200
+`R:0.50` is 2000
+
+`S:0.00` is 0000
+`M:0.00` is 8000
+`R:0.00` is 1600
 
 ###### Each `PHASE` equals to 8 hours
 
