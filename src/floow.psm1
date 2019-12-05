@@ -104,7 +104,7 @@ function floow-date([double]$offset){
   if([int]$month -eq 9){$monthletter = "i"}
   if([int]$month -eq 10){$monthletter = "j"}
   if([int]$month -eq 11){$monthletter = "k"}
-  if([int]$month -eq 12){$monthletter = "z"}
+  if([int]$month -eq 12){$monthletter = "w"}
   $year = (get-date (get-date).addDays([double]$offset) -UFormat "%Y")
   $day = (get-date (get-date).addDays([double]$offset) -UFormat "%d")
 
