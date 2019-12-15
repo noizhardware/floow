@@ -57,7 +57,7 @@
   ###### _Examples:_
   ~~~~
   May 18, 2019 is 2019e18
-  December 25, 2020 is 2020z25
+  December 25, 2020 is 2020w25
   October 3, 2123 is 2123j03
   ~~~~
 
