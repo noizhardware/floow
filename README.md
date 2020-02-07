@@ -49,7 +49,7 @@
 #### Date:
   * date is in `YYYYmDD` format.
   * `YYYY` is year. Plain 4-digits number.
-  * `M` is month, `a` `b` `c` `d` `e` `f` `g` `h` `i` `j` `k` `z`, to keep it visually compact.
+  * `M` is month, `a` `b` `c` `d` `e` `f` `g` `h` `i` `j` `k` `w`, to keep it visually compact.
     - All letters are written in small caps, `w` is used for December, because `l` can be confused with a `1`, `w` also turned out to be the best choice for IRL handwriting.
     - The small letter provides a nice visual delimiter between year and day
   * `DD` is day, a "0" is prepended for day numbers < 10.  
