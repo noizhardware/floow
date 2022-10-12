@@ -5,6 +5,11 @@
 
 **[Here](https://www.noizhardware.com/sw/ "F L O O W - Stopwatch")** you can find an online `F L O O W` **stopwatch**.
 
+- can be packed in 3 bytes (24bits):
+	- (15bits) year [0..32767]
+	- (4bits) month
+	- (5bits) day
+
 ---
 ##### A day's 24 hours are divided in three *PHASES*, called "S", "M" and "R"
 ###### That's for `S`leep `M`iddle `R`elax
